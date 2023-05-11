@@ -1,1 +1,80 @@
 <p>about works!</p>
+<section class="et-hero-tabs">
+    <br />
+    <header>
+      <h1>ACERCA DE NOSOTROS</h1>
+      <h3>Esta pagina es un proyecto escolar</h3>
+    </header>
+  </section>
+  
+  <section class="et-slide" id="tab-es6">
+    <br />
+    <div class="masonry">
+      <div class="masonry-item" *ngFor="let item of items">
+        <img [src]="item.image" alt="{{ item.title }}" />
+        <h2>{{ item.title }}</h2>
+        <p>{{ item.description }}</p>
+      </div>
+    </div>
+    <header>
+      <h1>Gerentes de Cinelandia</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="box-item box-1">
+          <div class="box-info info-box__wrapper-image info-box__shadow">
+            <i class="fal fa-shield"></i>
+            <h6>Sebastián Martínez Naranjo</h6>
+            <p>
+              Juan es el líder del equipo y se encarga de supervisar el
+              funcionamiento general del cine. Ha estado trabajando en la
+              industria del cine durante más de 10 años y tiene una amplia
+              experiencia en la administración y gestión de cines. Es el encargado
+              de garantizar que los clientes tengan una experiencia inolvidable en
+              Cinelandia.
+            </p>
+          </div>
+        </div>
+        <div class="box-item box-4">
+          <div class="box-info info-box__wrapper-image info-box__shadow">
+            <i class="fal fa-tachometer-alt-fastest"></i>
+            <h6>Carlos Alberto Lozano Morales</h6>
+            <p>
+              Carlos es el encargado de la promoción del cine y de asegurar que se
+              mantenga al día con las últimas tendencias en la industria del cine.
+              También es responsable de la publicidad en línea y en los medios
+              sociales. Con su creatividad e ingenio, siempre está buscando formas
+              de atraer a nuevos clientes y fidelizar a los ya existentes.
+            </p>
+          </div>
+        </div>
+        <div class="box-item box-5">
+          <div class="box-info info-box__wrapper-image info-box__shadow">
+            <i class="fal fa-umbrella-beach"></i>
+            <h6>Emily Cristal Medrano Castorena</h6>
+            <p>
+              Emily es responsable de la gestión de las operaciones diarias del
+              cine, incluyendo la programación de las películas, la gestión de los
+              horarios del personal y el mantenimiento de las instalaciones. Es
+              una persona muy organizada y detallista, y siempre está buscando
+              formas de mejorar el servicio que se ofrece a los clientes.
+            </p>
+          </div>
+        </div>
+        <div class="box-item box-6">
+          <div class="box-info info-box__wrapper-image info-box__shadow">
+            <i class="fal fa-anchor"></i>
+            <h6>Sergio Fernando Marentes Jiménez</h6>
+            <p>
+              Sergio es responsable de la gestión financiera del cine y se encarga
+              de todo lo relacionado con el presupuesto y la contabilidad. Es una
+              persona muy meticulosa y precisa, y se asegura de que todas las
+              finanzas estén en orden para que el cine pueda seguir operando de
+              manera rentable.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </section>
+  

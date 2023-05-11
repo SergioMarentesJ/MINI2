@@ -5,9 +5,11 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './pages/home/home.component';
 import { BuscarComponent } from './pages/buscar/buscar.component';
 import { PeliculaComponent } from './pages/pelicula/pelicula.component';
+import { AboutComponent } from './shared/about/about.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
+  {path: 'about', component: AboutComponent},
   {path: 'buscar/:texto', component: BuscarComponent},
   {path: 'pelicula/:id', component: PeliculaComponent},
   
