@@ -2,28 +2,31 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
 
 import { CommonModule } from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
+import { RouterModule } from '@angular/router';
+
+import { PagesModule } from './pages/pages.module';
+import { SharedModule } from './shared/shared.module';
+import { HttpClientModule } from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NavbarComponent,
-    FooterComponent,
-    HomeComponent,
-    AboutComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     CommonModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule,
+    SharedModule,
+    PagesModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
