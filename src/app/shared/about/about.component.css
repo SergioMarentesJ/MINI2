@@ -6,7 +6,7 @@ body {
   .et-slide {
     display: flex;
     flex-direction: column;
-    background: #eee;
+    background: #eeeeee00;
     text-align: center;
   }
   
@@ -115,13 +115,14 @@ body {
   
   .masonry-item {
     margin: 0.0002%;
-    width: 300px;
+    width: 258px;
   }
   
   .masonry-item img {
-    width: 300px;
+    width: 200px;
     height: 300px;
     height: auto;
     display: block;
+    align-content: center;
   }
   
