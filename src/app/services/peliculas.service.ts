@@ -24,19 +24,14 @@ export class PeliculasService {
     }
   }
 
-  
-
   getPeliculas():Observable<Movie[]>{
-
     if (this.cargando){
-
       return of([]);
     }
 
     this.cargando = true;
 
     console.log('Ver peliculas cargadas')
-      
 
     return this.http.get<PeliculasResponse>(`${this.serverURL}/movie/now_playing`,{params:this.params}).pipe(
       map((res)=>res.results),
@@ -46,6 +41,11 @@ export class PeliculasService {
       })
     );
   }
+
+  resetPeliculaPage(){
+    this.peliculaPage =1;
+  }
+
 }
 
 

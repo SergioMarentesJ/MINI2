@@ -2,7 +2,7 @@
     <div class="col-md-3 mb-5 animate__animated animate__fadeIn" *ngFor="let movie of movies">
       <img
         [src]=" movie.poster_path | poster"
-        class="img-thumbnail img-fluid cursor" (click)="onMovieClick(movie)"
+        class="img-thumbnail img-fluid cursor" (click)="onMovieClick(movie)" class="img-thumbnail img-fluid cursor" alt="movie.title"
       />
       <div>
         <h3 class="mt-2">{{ movie.title }}</h3>
