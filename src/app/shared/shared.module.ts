@@ -11,6 +11,8 @@ import { PeliculasPosterComponent } from './peliculas-poster/peliculas-poster.co
 import { AboutComponent } from './about/about.component';
 import { DomseguroPipe } from './about/domseguro.pipe';
 import { DulceComponent } from './dulce/dulce.component';
+import { ContactanosComponent } from './contactanos/contactanos.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,13 +21,17 @@ import { DulceComponent } from './dulce/dulce.component';
     AboutComponent,
     PeliculasPosterComponent,
     DomseguroPipe,
-    DulceComponent
+    DulceComponent,
+    FooterComponent,
+    ContactanosComponent
   ],
   exports: [
     NavbarComponent,
     SlideShowComponent,
     AboutComponent,
     DulceComponent,
+    ContactanosComponent,
+    FooterComponent,
     PeliculasPosterComponent
   ],
   imports: [
