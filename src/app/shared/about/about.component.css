@@ -125,4 +125,8 @@ body {
     display: block;
     align-content: center;
   }
-  
+  #vid{
+    display: flex;
+    align-items: center;
+    /* align-items: center; */
+  }

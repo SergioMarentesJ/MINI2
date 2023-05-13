@@ -9,13 +9,15 @@ import { SlideShowComponent } from './slide-show/slide-show.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { PeliculasPosterComponent } from './peliculas-poster/peliculas-poster.component';
 import { AboutComponent } from './about/about.component';
+import { DomseguroPipe } from './about/domseguro.pipe';
 
 @NgModule({
   declarations: [
     NavbarComponent,
     SlideShowComponent,
     AboutComponent,
-    PeliculasPosterComponent
+    PeliculasPosterComponent,
+    DomseguroPipe
   ],
   exports: [
     NavbarComponent,
