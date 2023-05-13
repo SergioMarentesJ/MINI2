@@ -1,0 +1,20 @@
+.masonry {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    align-self: center;
+    font-family: "Century Gothic", "Lato", sans-serif;
+    font-size: 0.875rem;
+  }
+  
+  .masonry-item {
+    margin: 0.0002%;
+    width: 258px;
+  }
+  
+  .masonry-item img {
+    width: 200px;
+    height: 300px;
+    height: auto;
+    align-content: center;
+  }

@@ -6,10 +6,12 @@ import { HomeComponent } from './pages/home/home.component';
 import { BuscarComponent } from './pages/buscar/buscar.component';
 import { PeliculaComponent } from './pages/pelicula/pelicula.component';
 import { AboutComponent } from './shared/about/about.component';
+import { DulceComponent } from './shared/dulce/dulce.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
+  {path: 'dulce', component: DulceComponent},
   {path: 'buscar/:texto', component: BuscarComponent},
   {path: 'pelicula/:id', component: PeliculaComponent},
   

@@ -10,6 +10,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PeliculasPosterComponent } from './peliculas-poster/peliculas-poster.component';
 import { AboutComponent } from './about/about.component';
 import { DomseguroPipe } from './about/domseguro.pipe';
+import { DulceComponent } from './dulce/dulce.component';
 
 @NgModule({
   declarations: [
@@ -17,12 +18,14 @@ import { DomseguroPipe } from './about/domseguro.pipe';
     SlideShowComponent,
     AboutComponent,
     PeliculasPosterComponent,
-    DomseguroPipe
+    DomseguroPipe,
+    DulceComponent
   ],
   exports: [
     NavbarComponent,
     SlideShowComponent,
     AboutComponent,
+    DulceComponent,
     PeliculasPosterComponent
   ],
   imports: [

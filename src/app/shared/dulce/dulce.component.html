@@ -1,0 +1,9 @@
+<p>dulce works!</p>
+
+<div class="masonry">
+    <div class="masonry-item" *ngFor="let item of items">
+      <img [src]="item.image" alt="{{ item.title }}" />
+      <h2>{{ item.title }}</h2>
+      <p>{{ item.description }}</p>
+    </div>
+  </div>
