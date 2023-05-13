@@ -125,8 +125,9 @@ body {
     display: block;
     align-content: center;
   }
-  #vid{
+  .vid{
     display: flex;
     align-items: center;
+    text-align: center;
     /* align-items: center; */
   }
