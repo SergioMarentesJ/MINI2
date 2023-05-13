@@ -6,18 +6,16 @@ import { NgbPaginationModule, NgbRatingModule } from '@ng-bootstrap/ng-bootstrap
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { SlideShowComponent } from './slide-show/slide-show.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PeliculasPosterComponent } from './peliculas-poster/peliculas-poster.component';
 import { AboutComponent } from './about/about.component';
-import { DomseguroPipe } from './about/domseguro.pipe';
 
 @NgModule({
   declarations: [
     NavbarComponent,
     SlideShowComponent,
     AboutComponent,
-    PeliculasPosterComponent,
-    DomseguroPipe
+    PeliculasPosterComponent
   ],
   exports: [
     NavbarComponent,
@@ -31,7 +29,8 @@ import { DomseguroPipe } from './about/domseguro.pipe';
     NgbPaginationModule, 
     NgbRatingModule,
     PipesModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ]
 })
 export class SharedModule { }
