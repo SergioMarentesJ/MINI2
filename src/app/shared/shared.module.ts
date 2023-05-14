@@ -3,6 +3,9 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { PipesModule } from '../pipes/pipes.module';
 import { NgbPaginationModule, NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
+import { CalendarModule } from 'primeng/calendar';
+import { TableModule } from 'primeng/table';
+import { CardModule } from 'primeng/card';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { SlideShowComponent } from './slide-show/slide-show.component';
@@ -13,6 +16,8 @@ import { DomseguroPipe } from './about/domseguro.pipe';
 import { DulceComponent } from './dulce/dulce.component';
 import { ContactanosComponent } from './contactanos/contactanos.component';
 import { FooterComponent } from './footer/footer.component';
+import { ReservaComponent } from './reserva/reserva.component';
+import { CitasRegistradasComponent } from './citas-registradas/citas-registradas.component';
 
 @NgModule({
   declarations: [
@@ -23,16 +28,20 @@ import { FooterComponent } from './footer/footer.component';
     DomseguroPipe,
     DulceComponent,
     FooterComponent,
-    ContactanosComponent
+    ContactanosComponent,
+    ReservaComponent,
+    CitasRegistradasComponent,
   ],
   exports: [
     NavbarComponent,
     SlideShowComponent,
     AboutComponent,
+    PeliculasPosterComponent,
     DulceComponent,
     ContactanosComponent,
     FooterComponent,
-    PeliculasPosterComponent
+    ReservaComponent,
+    CitasRegistradasComponent,
   ],
   imports: [
     CommonModule,
@@ -41,7 +50,10 @@ import { FooterComponent } from './footer/footer.component';
     NgbRatingModule,
     PipesModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    CalendarModule,
+    CardModule,
+    TableModule
   ]
 })
 export class SharedModule { }

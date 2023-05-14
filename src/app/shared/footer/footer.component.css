@@ -2,6 +2,13 @@ footer {
     background-color: #eb6f27;
     color: #fff;
     padding: 20px 0;
+    position: relative;
+    width: 100%;
+    margin-bottom: -15px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 100px;
+    bottom: 0;
   }
   
   .contenedor {

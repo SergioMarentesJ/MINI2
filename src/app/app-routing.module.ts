@@ -8,12 +8,17 @@ import { PeliculaComponent } from './pages/pelicula/pelicula.component';
 import { AboutComponent } from './shared/about/about.component';
 import { DulceComponent } from './shared/dulce/dulce.component';
 import { ContactanosComponent } from './shared/contactanos/contactanos.component';
+import { ReservaComponent } from './shared/reserva/reserva.component';
+import { CitasRegistradasComponent } from './shared/citas-registradas/citas-registradas.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
   {path: 'dulce', component: DulceComponent},
   {path: 'contactanos', component: ContactanosComponent},
+  {path: 'reserva', component: ReservaComponent},
+  {path: 'reservaciones', component: CitasRegistradasComponent},
+
   {path: 'buscar/:texto', component: BuscarComponent},
   {path: 'pelicula/:id', component: PeliculaComponent},
   
