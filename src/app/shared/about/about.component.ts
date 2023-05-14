@@ -9,7 +9,8 @@ export class AboutComponent implements OnInit{
   constructor(){
     
   }
-
+  nombre='';
+  video='8wOQE-myaC4';
   items = [
     {
       image: "https://i.pinimg.com/originals/aa/8b/92/aa8b926f8b17897418de0b1cd7768fb5.jpg",
