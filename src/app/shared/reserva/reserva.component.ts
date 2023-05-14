@@ -24,8 +24,8 @@ export class ReservaComponent {
         Validators.minLength(3),
       ]),
       correo: new FormControl('', [Validators.required, Validators.email]),
-      salaSel: new FormControl('', Validators.required),
-      nombrePel: new FormControl('', Validators.required),
+      salaS: new FormControl('', Validators.required),
+      peli: new FormControl('', Validators.required),
       date: new FormControl('', Validators.required),
     });
     this.minDate.setHours(9, 0, 0);
@@ -46,20 +46,20 @@ export class ReservaComponent {
     const citas = JSON.parse(citas1);
     var citasObject;
     delete citas['[[Prototype]]'];
-    const registroCitas = localStorage.getItem('formData');
+    const registroCitas = localStorage.getItem('formulario');
     if (registroCitas) {
       citasObject = JSON.parse(registroCitas);
     } else {
       citasObject = [];
     }
-    const peliGuardar = this.forma.value.nombrePel;
+    const peliGuardar = this.forma.value.peli;
     console.log(registroCitas);
     console.log(citasObject);
     if (Array.isArray(citasObject) != null) {
       console.log('hay varios');
       for (const cita of citasObject) {
         if (
-          cita['salaSel'] === citas['salaSel'] &&
+          cita['salaS'] === citas['salaS'] &&
           cita['date'] === citas['date']
         ) {
           console.log('Cita ya registrada, intente de nuevo');
@@ -71,32 +71,32 @@ export class ReservaComponent {
             timer: 2500,
           });
           this.forma.reset();
-          this.forma.patchValue({ nombrePel: peliGuardar });
+          this.forma.patchValue({ peli: peliGuardar });
           return;
         }
       }
     } else {
       console.log('solo hay uno');
       console.log(
-        citasObject['salaSel'] +
+        citasObject['salaS'] +
           ' ' +
-          citas['salaSel'] +
+          citas['salaS'] +
           ' ' +
           citasObject['date'] +
           ' ' +
           citas['date']
       );
       console.log(
-        typeof citasObject['salaSel'] +
+        typeof citasObject['salaS'] +
           ' ' +
-          typeof citas['salaSel'] +
+          typeof citas['salaS'] +
           ' ' +
           typeof citasObject['date'] +
           ' ' +
           typeof citas['date']
       );
       if (
-        citasObject['salaSel'] === citas['salaSel'] &&
+        citasObject['salaS'] === citas['salaS'] &&
         citasObject['date'] === citas['date']
       ) {
         console.log('Cita ya registrada, intente de nuevo');
@@ -108,22 +108,22 @@ export class ReservaComponent {
           timer: 2500,
         });
         this.forma.reset();
-        this.forma.patchValue({ nombrePel: peliGuardar });
+        this.forma.patchValue({ peli: peliGuardar });
         return;
       }
     }
     citasObject.push(citas);
     console.log(citasObject);
-    localStorage.setItem('formData', JSON.stringify(citasObject));
+    localStorage.setItem('formulario', JSON.stringify(citasObject));
     Swal.fire({
       icon: 'success',
       title: 'Reservación exitosa, consulta en el apartado de reservaciones',
       showConfirmButton: false,
-      timer: 2500,
+      timer: 2600,
     });
     this.router.navigateByUrl('/about');
     this.forma.reset();
-    this.forma.patchValue({ nombrePel: peliGuardar });
+    this.forma.patchValue({ peli: peliGuardar });
   }
 
   disabledDates = (date: Date) => {

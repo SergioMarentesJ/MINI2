@@ -74,7 +74,7 @@
                   class="form-control"
                   type="text"
                   [(ngModel)]="nombrePelicula"
-                  formControlName="nombrePel"
+                  formControlName="peli"
                 />
               </div>
             </div>
@@ -86,8 +86,8 @@
               <div class="col-3">
                 <select
                   class="form-control"
-                  formControlName="salaSel"
-                  [ngClass]="{ 'is-invalid': !forma.get('salaSel')?.valid }"
+                  formControlName="salaS"
+                  [ngClass]="{ 'is-invalid': !forma.get('salaS')?.valid }"
                 >
                   <option disabled selected hidden>Seleccione sala...</option>
                   <option value="sala1">Sala 1</option>
@@ -97,7 +97,7 @@
                   <option value="sala5">Sala 5</option>
                 </select>
                 <div
-                  *ngIf="forma.controls['salaSel'].errors?.['required']"
+                  *ngIf="forma.controls['salaS'].errors?.['required']"
                   class="invalid-feedback"
                 >
                   Seleccione una sala para continuar

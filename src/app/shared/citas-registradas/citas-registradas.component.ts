@@ -10,7 +10,7 @@ export class CitasRegistradasComponent implements OnInit {
     'Nombre',
     'Correo',
     'Sala',
-    'Pelicula Seleccionada',
+    'Pelicula elegida',
     'Fecha',
   ];
   citas: any[] = [];
@@ -23,7 +23,7 @@ export class CitasRegistradasComponent implements OnInit {
     });
   }
   constructor() {
-    const valores = localStorage.getItem('formData');
+    const valores = localStorage.getItem('formulario');
     if (valores) {
       this.citas = JSON.parse(valores);
     } else {
