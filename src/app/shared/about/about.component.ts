@@ -9,6 +9,7 @@ export class AboutComponent implements OnInit{
   constructor(){
     
   }
+  nombre='';
   video='8wOQE-myaC4';
   items = [
     {

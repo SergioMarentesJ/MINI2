@@ -21,7 +21,8 @@
   <main>
     <div class="container">
       <div class="box-item box-1">
-
+        <p>Pon tu nombre para formar parte de nuestra familia: </p>
+        <input type="text" [(ngModel)]="nombre" />
         <ul class="cards">
           <li class="cards__item">
             <div class="card">
@@ -91,12 +92,28 @@
           <li class="cards__item">
             <div class="card">
                 <div class="vid" style="text-align:center;">
-        <iframe
-            width="500"
-            height="300"
-            [src]="video | domseguro:'https://www.youtube.com/embed/' "
-        ></iframe>
-    </div>
+                  <iframe
+                      width="500"
+                      height="300"
+                      [src]="video | domseguro:'https://www.youtube.com/embed/' "
+                  ></iframe>
+                  
+              </div>
+            </div>
+          </li>
+          <li class="cards__item">
+            <div class="card" *ngIf="nombre ;">
+              <div class="card__image card__image--city"></div>
+              <div class="box-info info-box__wrapper-image info-box__shadow">
+                <i class="fal fa-shield"></i>
+                <h6>{{ nombre }}</h6>
+                <p>
+                  {{ nombre }} es la persona más importante de Cinelandia, ya que gracias a 
+                  el/ella todo ésto es posible, sin su entusiasmo sobre las películas Cinelandia
+                  no podrá existir.
+                </p>
+                <h3>Gracias {{ nombre }} !</h3>
+              </div>
             </div>
           </li>
         </ul>  
