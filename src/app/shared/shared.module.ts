@@ -18,6 +18,7 @@ import { ContactanosComponent } from './contactanos/contactanos.component';
 import { FooterComponent } from './footer/footer.component';
 import { ReservaComponent } from './reserva/reserva.component';
 import { CitasRegistradasComponent } from './citas-registradas/citas-registradas.component';
+import { GraficaComponent } from './grafica/grafica.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { CitasRegistradasComponent } from './citas-registradas/citas-registradas
     ContactanosComponent,
     ReservaComponent,
     CitasRegistradasComponent,
+    GraficaComponent
   ],
   exports: [
     NavbarComponent,
@@ -42,6 +44,7 @@ import { CitasRegistradasComponent } from './citas-registradas/citas-registradas
     FooterComponent,
     ReservaComponent,
     CitasRegistradasComponent,
+    GraficaComponent
   ],
   imports: [
     CommonModule,

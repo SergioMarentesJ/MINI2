@@ -17,7 +17,7 @@ import { Calendar, CalendarModule } from 'primeng/calendar';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
