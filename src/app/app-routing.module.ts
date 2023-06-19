@@ -10,6 +10,8 @@ import { DulceComponent } from './shared/dulce/dulce.component';
 import { ContactanosComponent } from './shared/contactanos/contactanos.component';
 import { ReservaComponent } from './shared/reserva/reserva.component';
 import { CitasRegistradasComponent } from './shared/citas-registradas/citas-registradas.component';
+import { GraficaComponent } from './shared/grafica/grafica.component';
+import { GeneradorComponent } from './shared/generador/generador.component';
 
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { LoginComponent } from './components/login/login.component';
@@ -27,8 +29,9 @@ const routes: Routes = [
   {path: 'contactanos', component: ContactanosComponent},
   {path: 'reserva', component: ReservaComponent},
   {path: 'reservaciones', component: CitasRegistradasComponent},
-  
-  
+  {path: 'grafica', component: GraficaComponent},
+  {path: 'generador', component: GeneradorComponent},
+    
   { path: 'login', component: LoginComponent },
   { path: 'registrar-usuario', component: RegistrarUsuarioComponent },
   { path: 'verificar-correo', component: VerificarCorreoComponent },
@@ -44,9 +47,6 @@ const routes: Routes = [
   {path: '**', pathMatch: 'full', redirectTo: '/home'},
 
   
-
-
-
 ];
 
 @NgModule({

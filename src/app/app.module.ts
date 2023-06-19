@@ -59,7 +59,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     VerificarCorreoComponent,
     RecuperarPasswordComponent,
     SpinnerComponent,
-    VerificarComponent
+    VerificarComponent,
   ],
   imports: [
     BrowserModule,

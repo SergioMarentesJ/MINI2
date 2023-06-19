@@ -1,0 +1,19 @@
+#chart_div{
+    margin: 0 auto;
+}
+
+h1, button{
+    color: rgb(224, 110, 10);
+    text-align: center;
+}
+
+button{
+    display: flex; 
+    justify-content: center;
+}
+
+#table_div{
+    margin: 0 auto;
+    display: flex; 
+    justify-content: center;
+}
