@@ -1,0 +1,27 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin: 10%;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #9953c8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .qr-code {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+  }
