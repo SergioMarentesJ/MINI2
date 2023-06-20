@@ -1,0 +1,97 @@
+{
+  "configVersion": 1,
+  "timestamp": 1687232008670,
+  "index": "https://sergiomarentesj.github.io/MINI2/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://sergiomarentesj.github.io/MINI2/568.bc51d37f2917d962.js",
+        "https://sergiomarentesj.github.io/MINI2/favicon.ico",
+        "https://sergiomarentesj.github.io/MINI2/index.html",
+        "https://sergiomarentesj.github.io/MINI2/main.86c9bce09430e7d4.js",
+        "https://sergiomarentesj.github.io/MINI2/manifest.webmanifest",
+        "https://sergiomarentesj.github.io/MINI2/polyfills.ac9f4733a2365faa.js",
+        "https://sergiomarentesj.github.io/MINI2/runtime.9cb8bb469c47adea.js",
+        "https://sergiomarentesj.github.io/MINI2/scripts.1b1989c70c72c31c.js",
+        "https://sergiomarentesj.github.io/MINI2/styles.5be9bd5c24fae67d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-128x128.png",
+        "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-144x144.png",
+        "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-152x152.png",
+        "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-192x192.png",
+        "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-384x384.png",
+        "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-512x512.png",
+        "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-72x72.png",
+        "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-96x96.png",
+        "https://sergiomarentesj.github.io/MINI2/color.dae87a04d07ca92b.png",
+        "https://sergiomarentesj.github.io/MINI2/hue.8b1818380241e6ac.png",
+        "https://sergiomarentesj.github.io/MINI2/primeicons.0112589c5695a9ed.ttf",
+        "https://sergiomarentesj.github.io/MINI2/primeicons.943ab24c43224d29.svg",
+        "https://sergiomarentesj.github.io/MINI2/primeicons.ba3f916dfb64be8c.woff2",
+        "https://sergiomarentesj.github.io/MINI2/primeicons.f8b9e8a4e401b603.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://sergiomarentesj.github.io/MINI2/568.bc51d37f2917d962.js": "409f4c3a342af0902e0459a1bd2355d950d6efec",
+    "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://sergiomarentesj.github.io/MINI2/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://sergiomarentesj.github.io/MINI2/color.dae87a04d07ca92b.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
+    "https://sergiomarentesj.github.io/MINI2/favicon.ico": "67497bc7016852f0073029893a06a8028c5a1ada",
+    "https://sergiomarentesj.github.io/MINI2/hue.8b1818380241e6ac.png": "f81ae627637a684614aa726e206c73ce099a01fd",
+    "https://sergiomarentesj.github.io/MINI2/index.html": "fc13eb8c3f2621f1b4be7957270357d16634e577",
+    "https://sergiomarentesj.github.io/MINI2/main.86c9bce09430e7d4.js": "0dba2f88d461a78664561d08ea5255caa2851f5d",
+    "https://sergiomarentesj.github.io/MINI2/manifest.webmanifest": "759356c8b1c11d4fb4f8b550f2e8fc8a7b48535f",
+    "https://sergiomarentesj.github.io/MINI2/polyfills.ac9f4733a2365faa.js": "a99ec81435dea20a6415506db83186066c0c7f85",
+    "https://sergiomarentesj.github.io/MINI2/primeicons.0112589c5695a9ed.ttf": "ceeb46d594fde5cc507cdf8b70e38e78fe47653c",
+    "https://sergiomarentesj.github.io/MINI2/primeicons.943ab24c43224d29.svg": "d3332a45242b8f6edbf3f3c7176a280e7edcd961",
+    "https://sergiomarentesj.github.io/MINI2/primeicons.ba3f916dfb64be8c.woff2": "55a4b2a5f02e362405d8d874903af0b5f6a6c15d",
+    "https://sergiomarentesj.github.io/MINI2/primeicons.f8b9e8a4e401b603.woff": "b1648b50be13350fde8b5d9a6fe78354ddcc43e4",
+    "https://sergiomarentesj.github.io/MINI2/runtime.9cb8bb469c47adea.js": "275e6a1616f1a2ef62e6f77660a22158a1a4af3a",
+    "https://sergiomarentesj.github.io/MINI2/scripts.1b1989c70c72c31c.js": "5324c73b562774b5c42b1d0d7dc40a0bd01b5881",
+    "https://sergiomarentesj.github.io/MINI2/styles.5be9bd5c24fae67d.css": "9609d4080a9e32209a6e2d3ad58675aa52e57548"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
